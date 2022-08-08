@@ -28,10 +28,10 @@ const config = {
             'docusaurus-plugin-editor',
             {
                 sidebarPath: require.resolve('./sidebars.js'),
-                // TODO(dnguyen0304): Investigate if the /tree/main path is
+                // TODO(dnguyen0304): Document that the /blob/main path is
                 // required.
                 editUrl:
-                    'https://github.com/dnguyen0304/fake-docusaurus-site/tree/main/',
+                    'https://github.com/dnguyen0304/fake-docusaurus-site/blob/main/',
             },
         ],
         'docusaurus-theme-editor',
