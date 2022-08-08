@@ -14,10 +14,6 @@ const config = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
 
-    // TODO(dnguyen0304): Document environment setup.
-    organizationName: 'dnguyen0304',
-    projectName: 'fake-docusaurus-site',
-
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
     // to replace "en" with "zh-Hans".
@@ -32,6 +28,8 @@ const config = {
             'docusaurus-plugin-editor',
             {
                 sidebarPath: require.resolve('./sidebars.js'),
+                // TODO(dnguyen0304): Investigate if the /tree/main path is
+                // required.
                 editUrl:
                     'https://github.com/dnguyen0304/fake-docusaurus-site/tree/main/',
             },
