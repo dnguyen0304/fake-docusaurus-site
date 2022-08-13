@@ -4,7 +4,7 @@ sidebar_position: 3
 
 ## Upload to NPM
 
-```
+```shell
 $ npm version minor && npm publish
 ```
 
