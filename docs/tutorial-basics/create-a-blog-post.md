@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-A
+B
 
 ## Upload to NPM
 
