@@ -25,7 +25,7 @@ const config = {
     // TODO(dnguyen0304): Document environment setup.
     plugins: [
         [
-            'docusaurus-plugin-editor',
+            '@docupotamus/docusaurus-plugin-editor',
             {
                 sidebarPath: require.resolve('./sidebars.js'),
                 // TODO(dnguyen0304): Document that the /blob/main path is
@@ -34,7 +34,7 @@ const config = {
                     'https://github.com/dnguyen0304/fake-docusaurus-site/blob/main/',
             },
         ],
-        'docusaurus-theme-editor',
+        '@docupotamus/docusaurus-theme-editor',
     ],
 
     presets: [
